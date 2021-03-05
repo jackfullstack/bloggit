@@ -1,9 +1,9 @@
 import React from "react";
 
 const HomePage = () => (
-  <>
-    <h1>Welcome to Bloggit</h1>
-    <p>
+  <div className="container p-4 mx-auto my-5 border">
+    <h1 className="p-3">Welcome to Bloggit</h1>
+    <p className="p-3">
       Lorem Ipsum is simply dummy text of the printing and typesetting industry.
       Lorem Ipsum has been the industry's standard dummy text ever since the
       1500s, when an unknown printer took a galley of type and scrambled it to
@@ -14,7 +14,7 @@ const HomePage = () => (
       publishing software like Aldus PageMaker including versions of Lorem
       Ipsum.
     </p>
-    <p>
+    <p className="p-3">
       Lorem Ipsum is simply dummy text of the printing and typesetting industry.
       Lorem Ipsum has been the industry's standard dummy text ever since the
       1500s, when an unknown printer took a galley of type and scrambled it to
@@ -24,7 +24,7 @@ const HomePage = () => (
       sheets containing Lorem Ipsum passages, and more recently with desktop
       publishing software
     </p>
-  </>
+  </div>
 );
 
 export default HomePage;

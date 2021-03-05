@@ -1,0 +1,23 @@
+// Your variable overrides
+$body-bg: #fff;
+$body-color: #345;
+$link-color: #f66;
+
+
+
+$theme-colors: (
+  "primary": #222,
+  "secondary": #333,
+  "success": #555,
+  "warning": #155,
+  "info": #555,
+  "light": #fff,
+  "dark": #111,
+
+);
+
+@import "~bootstrap/scss/bootstrap";
+
+
+
+

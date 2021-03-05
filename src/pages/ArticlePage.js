@@ -15,14 +15,18 @@ const ArticlePage = ({ match }) => {
   }
 
   return (
-    <>
-      <h1>{article.title}</h1>
+    <div className="container p-4 mx-auto my-5 border">
+      <div>
+      <h1 className="p-3">{article.title}</h1>
       {article.content.map((paragraph, key) => (
         <p key={key}>{paragraph}</p>
       ))}
-      <h3>Other Articles</h3>
-      <ArticlesList articles={otherArticles} />
-    </>
+         </div>
+         <div className="p-4 mx-auto my-5 border">
+        <h3 className="p-3">Other Articles</h3>
+        <ArticlesList articles={otherArticles} />
+      </div>
+    </div>
   );
 };
 
